@@ -8,8 +8,39 @@
     </title>
     <meta
       name="description"
-      content="Photographe professionnelle, Bordeaux 33 et Ile-de-France. Portraits, photographies d’ entreprises, mariages, concert, retouches, album personnalisé, immortaliser les moments tendre et vos succès grâce professionnalisme et talent artistique de Nina Carducci."
+      content="Photographe professionnelle, Bordeaux et Ile-de-France. Portraits de mariage et photographies d’ entreprises, 
+      de concerts pour tout évènements, immortaliser les moments précieux de votre vie ou célébrez vos succès avec vos clients 
+      et votre entourage avec des album personnalisés ou enlever les imperfections avec des retouches vous y trouverez beaucoup 
+      de satisfaction grâce au talent artistique de Nina Carducci."
     />
+    <!-- Meta Tags Generated with https://metatags.io -->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ninacarducci.github.io/" />
+    <meta property="og:title" content="Nina Carducci - Photographe Bordeaux - Portraits, albums, évènements & professionnels..." />
+    <meta property="og:description" content="Votre photographe pour immortaliser les moments précieux ou mettre en valeur votre entreprise. 
+    Couvre la région de Bordeaux et l'Ile-de-France" />
+    <meta property="og:image" content="https://ninacarducci.github.io/assets/images/nina_Carducci.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ninacarducci.github.io/" />
+    <meta property="twitter:title" content="Nina Carducci - Photographe Bordeaux et l'Ile-de-France - Portraits, albums, évènements & professionnels..." />
+    <meta property="twitter:description" content="Photographe professionnelle, Bordeaux et Ile-de-France. Portraits de mariage et photographies d’ entreprises, 
+de concerts pour tout évènements, immortaliser les moments précieux de votre vie ou célébrez vos succès avec vos clients 
+et votre entourage avec des album personnalisés ou enlever les imperfections avec des retouches vous y trouverez beaucoup 
+de satisfaction grâce au talent artistique de Nina Carducci." />
+    <meta property="twitter:image" content="https://ninacarducci.github.io/assets/images/nina_Carducci.png" />
+ 
+   <!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google --> 
+    <script type="application/ld+json">
+    { "@context": "http://schema.org", "@type": "LocalBusiness", "name": "Nina Carducci photographe", "telephone": "05 56 67 78 89", "address": 
+    { "@type": "PostalAddress", "streetAddress": "68 avenue Alsace-Lorraine", "addressLocality": "Bordeaux", "addressCountry": "France", "postalCode": "33200" },
+     "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": { "@type": "DayOfWeek", "name": "lundi mardi mercredi jeudi vendredi" }, 
+  "opens": "09:00",
+"closes": "18:00"
+}} </script>
+
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,15 +49,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/lazysizes.js"></script>
   </head>
+  
   <body>
     <header class="top-header">
       <h1 class="name">Nina Carducci</h1>
@@ -80,22 +104,22 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                data-src="./assets/images/slider/man_on_zebracrossing.jpg"
-                class="d-block w-100 lazyload"
+                src="./assets/images/slider/man_on_zebracrossing.jpg"
+                class="d-block w-100 "
                 alt="photo of man on zebra crossing"
               />
             </div>
             <div class="carousel-item">
-              <img
-                data-src="./assets/images/slider/concert_atmosphere.jpg"
-                class="d-block w-100 lazyload"
+              <img loading="lazy"
+                src="./assets/images/slider/concert_atmosphere.jpg"
+                class="d-block w-100 "
                 alt="Photo of people celebrating"
               />
             </div>
             <div class="carousel-item">
-              <img
-                data-src="./assets/images/slider/couple_first_dance.jpg"
-                class="d-block w-100 lazyload"
+              <img loading="lazy"
+                src="./assets/images/slider/couple_first_dance.jpg"
+                class="d-block w-100"
                 alt="photo of a couple kissing at their wedding"
               />
             </div>
@@ -122,21 +146,20 @@
       </section>
       <section id="about">
         <div class="picture left">
-          <img
-            data-src="./assets/images/nina_Carducci.png"
-            class="lazyload"
+          <img loading="lazy"
+            src="./assets/images/nina_Carducci.png"
             alt="photo of Nina Carducci"
           />
         </div>
         <div id="about-me">
           <h2 class="about-me__title">A propos de moi</h2>
-          <h6 class="about-me__introduction">
+          <p class="about-me__introduction">
             Devenir photographe était pour moi une évidence. Comme si j’y étais
             prédestiné. Saisir un moment, une émotion, une situation, un
             endroit, une lumière et les rendre immortels, voilà ce qui me fait
             vibrer.
-          </h6>
-          <p>
+          </p>
+          <p class="text">
             Nous passons notre vie à chercher le bonheur, et lorsque nous y
             touchons, nous n’avons qu’une envie : le figer au travers de
             photographies pour le savourer avec les personnes qui sont
@@ -153,75 +176,73 @@
         <h3 class="title">Portfolio</h3>
         <div class="container py-3">
           <div class="gallery">
-            <img
+            <img loading="lazy"
               data-gallery-tag="Concert"
-              class="gallery-item lazyload"
-              data-src="./assets/images/gallery/concerts/concert_scene.jpg"
+              class="gallery-item"
+              src="./assets/images/gallery/concerts/concert_scene.jpg"
               alt="photo d'un concert illumine en rouge"
             />
-            <img
+            <img loading="lazy"
               data-gallery-tag="Entreprises"
-              class="gallery-item lazyload"
-              data-src="./assets/images/gallery/entreprise/a_serious_man.jpg"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/a_serious_man.jpg"
               alt="photo d'un homme en costume"
             />
-            <img
+            <img loading="lazy"
               data-gallery-tag="Entreprises"
-              class="gallery-item lazyload"
-              data-src="./assets/images/gallery/entreprise/office_ambiance.jpg"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/office_ambiance.jpg"
               alt="photo d'ambiance de travail"
             />
-            <img
+            <img loading="lazy"
               data-gallery-tag="Mariages"
-              class="gallery-item lazyload"
-              data-src="./assets/images/gallery/mariage/joining_hands_mariage.jpg"
+              class="gallery-item"
+              src="./assets/images/gallery/mariage/joining_hands_mariage.jpg"
               alt="photo de mariage"
             />
-            <img
+            <img loading="lazy"
               data-gallery-tag="Portrait"
-              class="gallery-item lazyload"
-              data-src="./assets/images/gallery/portraits/portrait_Ade.jpg"
+              class="gallery-item"
+              src="./assets/images/gallery/portraits/portrait_Ade.jpg"
               alt="portrait d'un homme"
             />
-            <img
+            <img loading="lazy"
               data-gallery-tag="Mariages"
-              class="gallery-item lazyload"
-              data-src="./assets/images/gallery/mariage/newly_weds.jpg"
+              class="gallery-item"
+              src="./assets/images/gallery/mariage/newly_weds.jpg"
               alt="photo d'un couple a leur mariage"
             />
-            <img
+            <img loading="lazy"
               data-gallery-tag="Portrait"
-              class="gallery-item lazyload"
-              data-src="./assets/images/gallery/portraits/portrait_young_woman.jpg"
+              class="gallery-item"
+              src="./assets/images/gallery/portraits/portrait_young_woman.jpg"
               alt="portrait d'une jeune femme"
             />
-            <img
+            <img loading="lazy"
               data-gallery-tag="Concert"
-              class="gallery-item lazyload"
-              data-src="./assets/images/gallery/concerts/austin_neill_gig.jpg"
+              class="gallery-item"
+              src="./assets/images/gallery/concerts/austin_neill_gig.jpg"
               alt="photo d'un chanteur en concert"
             />
-            <img
+            <img loading="lazy"
               data-gallery-tag="Entreprises"
-              class="gallery-item lazyload"
-              data-src="./assets/images/gallery/entreprise/woman_working.jpg"
+              class="gallery-item"
+              src="./assets/images/gallery/entreprise/woman_working.jpg"
               alt="photo d'une femme souriante a son bureau"
             />
           </div>
         </section>
-        <div class="quote">
-          <figure>
+        <div class="quote">        
             <blockquote>
-              <h1 class="quote__text">
+              <p class="quote__text">
                 Un portrait n’est pas une ressemblance. Dès lors qu’une émotion
                 ou qu’un fait est traduit en photo, il cesse d’être un fait pour
                 devenir une opinion. L’inexactitude n’existe pas en
                 photographie. Toutes les photos sont exactes. Aucune d’elles
                 n’est la vérité.
-              </h1>
-            </blockquote>
-            <figcaption class="quote__author">- Richard Avedon</figcaption>
-          </figure>
+              </p>
+              <h4 class="quote__author">- Richard Avedon</h4>
+            </blockquote>                  
         </div>
       </div>
       <section id="services">
@@ -271,17 +292,15 @@
         </div>
       </section>
       <div class="quote">
-        <figure>
           <blockquote>
-            <h1 class="quote__text">
+            <p class="quote__text">
               De manière inconsciente, je crois, je guette un regard, une
               expression, des traits ou une nostalgie capable de résumer ou plus
               exactement de révéler une vie
-            </h1>
+            </p>
+            <h4 class="quote__author">- Richard Avedon</h4>
           </blockquote>
-          <figcaption class="quote__author">- Richard Avedon</figcaption>
-        </figure>
-      </div>
+         </div>
       <section id="contact">
         <div class="container">
           <div class="form-container">
@@ -306,7 +325,7 @@
             </form>
           </div>
           <div class="picture right">
-            <img
+            <img loading="lazy"
               src="./assets/images/camera.png"
               alt="photo d'un appareil photo"
             />
@@ -314,9 +333,19 @@
         </div>
       </section>
       <footer>
-        <p>adresse etc..</p>
+        <h3>Nina Carducci photographe</h3>
+        <p>68 avenue Alsace-Lorraine, 33200 Bordeaux</p>
+        <p>Tél: 05 56 67 78 89</p>
+        <p>Je réponds au téléphone du lundi au vendredi de 10h à 19h</p>
       </footer>
     </main>
-    <script src="./assets/scripts.js"></script>
+    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+      <script src="./assets/maugallery.js"></script>
+     <script src="./assets/scripts.js"></script>
   </body>
 </html>
